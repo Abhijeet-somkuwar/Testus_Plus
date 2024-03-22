@@ -1,9 +1,14 @@
 
 import './App.css';
+import Navbar from './Components/Navbar';
+import HeroSection from "./Components/HeroSection"
 
 function App() {
   return (
-   <div>Testus Plus</div>
+   <>
+   <Navbar/>
+  <HeroSection/>
+   </>
   );
 }
 

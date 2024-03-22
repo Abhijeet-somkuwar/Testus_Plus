@@ -1,0 +1,33 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),
+    url(../assets/sasun-bughdaryan-RlIppR1I3E8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_text{
+    text-align: center;
+    max-width: 900px;
+}
+.hero_text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero_text p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.btn i{
+    width: 20px;
+    margin-left: 10px;
+}
+/* .explore{
+    margin-top: 10px;
+} */
