@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import './ContactUs.css'; 
 import img1 from '../assets/images/address.png';
@@ -70,23 +68,21 @@ const ContactUs = () => {
       
     </div>
     <div className='container-2'>
-    <form action="" className='form' >
-          <input type="text" name='name' placeholder="Full Name" />
-          <input type="text" name='email' placeholder="Email Address" />
-          <input type="text" name='subject' placeholder="Phone Number (Optional)" />
-          <textarea
-            name="message"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
-          <button type='submit'>Send</button>
-        </form>
-
-
+      <form action="" className='form' >
+            <input type="text" name='name' placeholder="Full Name" />
+            <input type="text" name='email' placeholder="Email Address" />
+            <input type="text" name='subject' placeholder="Phone Number (Optional)" />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <button type='submit'>Send</button>
+       </form>
     </div>
-    </div>
+  </div>
   );
 };
 

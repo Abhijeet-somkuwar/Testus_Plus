@@ -1,10 +1,6 @@
 /* ContactUs.css */
 .contact-us-container {
-    background-image: linear-gradient(
-      to bottom,
-      cyan, /* Top color */
-      #e0ffff /* Lighter version of cyan */
-    );
+    background-color: white;
     padding: 20px;
     
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
@@ -37,11 +33,7 @@
 }
 
 .container-2{
-  background-image: linear-gradient(
-      to bottom,
-      cyan, /* Top color */
-      #e0ffff /* Lighter version of cyan */
-    );
+  background-color: white;
     padding-left: 80px;
     padding-top: 30px;
 
