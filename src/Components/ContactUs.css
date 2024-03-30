@@ -1,0 +1,83 @@
+/* ContactUs.css */
+.contact-us-container {
+    background-image: linear-gradient(
+      to bottom,
+      cyan, /* Top color */
+      #e0ffff /* Lighter version of cyan */
+    );
+    padding: 20px;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    width: 50%;
+    
+  }
+  
+  .location-section, .contact-section {
+    margin-bottom: 50px;
+    padding-left: 50px;
+    
+  }
+  
+  /* Add more styles as needed */
+  .heading-with-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px; /* Space between the icon and the heading */
+    width: 24px; /* Set the size of your icons */
+    height: 24px;
+  }
+  
+.container-1{
+  display: flex;
+    
+
+}
+
+.container-2{
+  background-image: linear-gradient(
+      to bottom,
+      cyan, /* Top color */
+      #e0ffff /* Lighter version of cyan */
+    );
+    padding-left: 80px;
+    padding-top: 30px;
+
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    width: 50%;
+    
+    
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  
+}
+
+.form input,
+.form textarea {
+  padding: 20px;
+  border-radius: 5px;
+  border: 5px;
+  outline: 5px;
+  background-color: #b2ffff;
+  color: var(--text);
+  border-color: black;
+}
+
+.form button {
+  padding: 20px;
+  background-color: darkcyan;
+  color: var(--text);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
